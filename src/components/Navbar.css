@@ -1,0 +1,16 @@
+.navbar {
+    height: 7vh;
+    background-color: #61dafb;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    background-color: red;
+}
+
+.bold {
+    font-weight: bold;
+}

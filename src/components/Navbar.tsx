@@ -1,17 +1,39 @@
-import React, { useContext } from 'react';
-import {PageContext} from "../App";
+import React from "react";
+import "./Navbar.css"
 import {Page} from "../types/PageType";
+import {Link} from "react-router-dom";
 
-const Navbar: React.FC = () => {
-    const { page, setPage } = useContext(PageContext)!;
-
+interface NavbarProps {
+    page: Page
+}
+function renderPageName(linkPage: Page, currentPage: Page) {
+    if (linkPage === currentPage) {
+        return (
+            <span className="bold">{linkPage}</span>
+        )
+    }
     return (
-        <div>
-            <button onClick={() => setPage(Page.Home)}>{page === Page.Home ? '[Home]' : 'Home'}</button>
-            <button onClick={() => setPage(Page.About)}>{page === Page.About ? '[About]' : 'About'}</button>
-            <button onClick={() => setPage(Page.SignUp)}>{page === Page.SignUp ? '[SignUpPage]' : 'SignUp'}</button>
+        <span>{linkPage}</span>
+    )
+}
+export default function Navbar({ page }: NavbarProps) {
+    return (
+        <div className="navbar">
+            <Link to={"/"} className="navbar-link">
+                <div>
+                    {renderPageName(Page.Home, page)}
+                </div>
+            </Link>
+            <Link to={"/about"} className="navbar-link">
+                <div>
+                    {renderPageName(Page.About, page)}
+                </div>
+            </Link>
+            <Link to={"/signup"} className="navbar-link">
+                <div>
+                    {renderPageName(Page.SignUp, page)}
+                </div>
+            </Link>
         </div>
     );
 };
-
-export default Navbar;
