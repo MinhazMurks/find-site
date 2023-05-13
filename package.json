@@ -2,7 +2,7 @@
   "name": "find-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MinhazMurks.github.io/find-site",
+  "homepage": "https://www.seekerorlando.org",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
