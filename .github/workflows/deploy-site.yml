@@ -1,4 +1,4 @@
-name: Deploy Site
+name: deploy-site
 
 run-name: ${{ github.actor }} is deploying to GitHub Pages
 on: [workflow_dispatch]
