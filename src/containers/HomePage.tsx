@@ -19,10 +19,11 @@ export default function HomePage(): React.ReactElement {
                     <Carousel
                         autoPlay={true}
                         showStatus={false}
+                        interval={3000}
                         showThumbs={false}
                         dynamicHeight={true}
-                        interval={1}
-                        width="100%"
+                        infiniteLoop={true}
+                        showIndicators={false}
                     >
                         <div>
                             <img src={city} alt="test"/>
@@ -38,7 +39,7 @@ export default function HomePage(): React.ReactElement {
 
                 <div className="text-block">
                     <div className="heading">Introduction</div>
-                    <p>
+                    <div className="text-body">
                         Welcome to the Orlando Scavenger Hunt, your gateway to a thrilling adventure that
                         will take you through the heart of our vibrant city! Unearth the hidden gems and
                         secret spots that lie waiting for discovery, right in the bustling streets and
@@ -48,7 +49,7 @@ export default function HomePage(): React.ReactElement {
                         It's not just about finding items on a list, it's about experiencing Orlando in a new
                         and exciting way. Ready to uncover the magic? Join us and embark on a journey of discovery
                         and fun!
-                    </p>
+                    </div>
                 </div>
                 <div className="text-block">
                     <div className="heading">How it Works</div>

@@ -5,23 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca20d721-cc9a-4273-a12c-cc3738ce27e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/SeekerOrlando.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/city-shot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/collab-city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/woods-crouch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/FAQPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Quicksand-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Quicksand-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Quicksand-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Quicksand-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Quicksand-SemiBold.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeekerOrlando.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/city-shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/city-shot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/collab-city.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/collab-city.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/woods-crouch.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/woods-crouch.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/PageType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/PageType.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684010218190</updated>
-      <workItem from="1684010219767" duration="21648000" />
+      <workItem from="1684010219767" duration="27707000" />
     </task>
     <servers />
   </component>

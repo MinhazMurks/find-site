@@ -1,7 +1,36 @@
+@font-face {
+  font-family: 'Quicksand'; /* Define a name for your font */
+  src: url('assets/Quicksand-Light.ttf') format('TrueType'); /* Set the path to your font file */
+  font-weight: 200; /* Light font weight */
+}
+
+@font-face {
+  font-family: 'Quicksand'; /* Define a name for your font */
+  src: url('assets/Quicksand-Regular.ttf') format('TrueType'); /* Set the path to your font file */
+  font-weight: 300; /* Light font weight */
+}
+
+@font-face {
+  font-family: 'Quicksand'; /* Define a name for your font */
+  src: url('assets/Quicksand-Medium.ttf') format('TrueType'); /* Set the path to your font file */
+  font-weight: 400; /* Normal font weight */
+}
+
+@font-face {
+  font-family: 'Quicksand'; /* Define a name for your font */
+  src: url('assets/Quicksand-SemiBold.ttf') format('TrueType'); /* Set the path to your font file */
+  font-weight: 700; /* Bold font weight */
+}
+
+@font-face {
+  font-family: 'Quicksand'; /* Define a name for your font */
+  src: url('assets/Quicksand-Bold.ttf') format('TrueType'); /* Set the path to your font file */
+  font-weight: 800; /* Bold font weight */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Futura Bk BT',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
