@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.39a1ba9d.css",
-    "main.js": "/static/js/main.b11a90a3.js",
+    "main.css": "/static/css/main.b7cc3f9e.css",
+    "main.js": "/static/js/main.f784979f.js",
     "static/js/787.7abe32ab.chunk.js": "/static/js/787.7abe32ab.chunk.js",
     "static/media/city-shot.png": "/static/media/city-shot.be29d847e5fa6fa9b695.png",
     "static/media/collab-city.png": "/static/media/collab-city.bcf614f26339d4f3f010.png",
@@ -13,12 +13,12 @@
     "static/media/Quicksand-Bold.ttf": "/static/media/Quicksand-Bold.4c95904387d18546c023.ttf",
     "static/media/SeekerOrlando.svg": "/static/media/SeekerOrlando.d76b0cd3e2abd85fc672eb9eab1b8afc.svg",
     "index.html": "/index.html",
-    "main.39a1ba9d.css.map": "/static/css/main.39a1ba9d.css.map",
-    "main.b11a90a3.js.map": "/static/js/main.b11a90a3.js.map",
+    "main.b7cc3f9e.css.map": "/static/css/main.b7cc3f9e.css.map",
+    "main.f784979f.js.map": "/static/js/main.f784979f.js.map",
     "787.7abe32ab.chunk.js.map": "/static/js/787.7abe32ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39a1ba9d.css",
-    "static/js/main.b11a90a3.js"
+    "static/css/main.b7cc3f9e.css",
+    "static/js/main.f784979f.js"
   ]
 }
