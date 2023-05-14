@@ -7,6 +7,7 @@ import collab from "../assets/collab-city.png"
 import woods_crouch from "../assets/woods-crouch.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from "react-responsive-carousel";
+import Countdown from "react-countdown";
 
 export default function HomePage(): React.ReactElement {
 
@@ -38,7 +39,6 @@ export default function HomePage(): React.ReactElement {
                 </div>
 
                 <div className="text-block">
-                    <div className="heading">Introduction</div>
                     <div className="text-body">
                         Welcome to the Orlando Scavenger Hunt, your gateway to a thrilling adventure that
                         will take you through the heart of our vibrant city! Unearth the hidden gems and
@@ -51,6 +51,16 @@ export default function HomePage(): React.ReactElement {
                         and fun!
                     </div>
                 </div>
+
+                <div className="clock-container">
+                    <div className="countdown-container">
+                        <Countdown date={new Date("08-31-2023")} />
+                    </div>
+                    <div className="clock-text">
+                        until the next one
+                    </div>
+                </div>
+
                 <div className="text-block">
                     <div className="heading">How it Works</div>
                     <ol>

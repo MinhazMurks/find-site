@@ -15,7 +15,23 @@
     align-items: center;
 }
 
-.carousel-container {
+.clock-container {
+    margin: 10px 0 10px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #f6be07;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 15vw;
 }
 
 .text-block {
@@ -28,6 +44,7 @@
 }
 
 .text-body {
+    margin: 30px 0 30px 0;
     font-size: max(1vw, 20px);
 }
 
@@ -35,9 +52,15 @@
     font-size: max(1vw, 20px);
 }
 
+.clock-text {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: max(2vw, 30px);
+}
+
 .heading {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    font-size: max(2vw, 40px);
+    display: flex;
+    justify-content: center;
+    font-size: max(2vw, 30px);
 }

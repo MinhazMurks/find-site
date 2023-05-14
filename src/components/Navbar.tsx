@@ -21,7 +21,11 @@ export default function Navbar({ page }: NavbarProps) {
     return (
         <div className="navbar">
             <div className="navbar-logo-container">
-                <img src={logo} alt=""/>
+                <Link to={"/"} className="navbar-link">
+                    <div className="navbar-button-container-image">
+                        <img src={logo} alt=""/>
+                    </div>
+                </Link>
             </div>
             <div className="navbar-button-container">
                 <Link to={"/"} className="navbar-link">
