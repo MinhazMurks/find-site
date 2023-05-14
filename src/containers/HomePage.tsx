@@ -2,6 +2,11 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import {Page} from "../types/PageType";
 import "./HomePage.css"
+import city from "../assets/city-shot.png"
+import collab from "../assets/collab-city.png"
+import woods_crouch from "../assets/woods-crouch.png"
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import {Carousel} from "react-responsive-carousel";
 
 export default function HomePage(): React.ReactElement {
 
@@ -9,6 +14,28 @@ export default function HomePage(): React.ReactElement {
         <div className="homepage-container">
             <Navbar page={Page.Home}></Navbar>
             <div className="homepage-body-container">
+
+                <div>
+                    <Carousel
+                        autoPlay={true}
+                        showStatus={false}
+                        showThumbs={false}
+                        dynamicHeight={true}
+                        interval={1}
+                        width="100%"
+                    >
+                        <div>
+                            <img src={city} alt="test"/>
+                        </div>
+                        <div>
+                            <img src={collab} alt="test"/>
+                        </div>
+                        <div>
+                            <img src={woods_crouch} alt="test"/>
+                        </div>
+                    </Carousel>
+                </div>
+
                 <div className="text-block">
                     <div className="heading">Introduction</div>
                     <p>
@@ -33,6 +60,12 @@ export default function HomePage(): React.ReactElement {
                         <li>Stay Safe: Remember to respect each location and follow all local laws and guidelines. Safety and respect for our city are paramount.</li>
                         <li>Have Fun!: This is more than just a game, it's a chance to learn, explore, and create unforgettable memories. Enjoy the thrill of the hunt and happy exploring!</li>
                     </ol>
+                </div>
+                <div>
+                    <p>Testimonials</p>
+                </div>
+                <div>
+                    <p>CTA</p>
                 </div>
             </div>
         </div>
