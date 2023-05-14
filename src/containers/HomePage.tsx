@@ -54,7 +54,7 @@ export default function HomePage(): React.ReactElement {
 
                 <div className="clock-container">
                     <div className="countdown-container">
-                        <Countdown date={new Date("08-31-2023")} />
+                        <Countdown date={new Date(1692823866000)} />
                     </div>
                     <div className="clock-text">
                         until the next one
