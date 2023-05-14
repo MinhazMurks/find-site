@@ -1,7 +1,8 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
 import {Page} from "../types/PageType";
-import "./AboutPage.css"
+import "./FAQPage.css"
+import "../App.css"
 
 export default function FAQPage(): React.ReactElement {
 

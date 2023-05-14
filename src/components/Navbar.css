@@ -1,6 +1,6 @@
 .navbar {
     height: 7vh;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 9;
     background-color: #f6be07;
@@ -17,7 +17,7 @@
     right: 0;
     background-color: #f6be07;
     font-size: 1.5em;
-    padding: 5px;
+    padding: 20px;
 }
 
 .navbar-toggle {

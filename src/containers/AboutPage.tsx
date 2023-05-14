@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import {Page} from "../types/PageType";
 import "./AboutPage.css"
+import "../App.css"
 
 export default function AboutPage(): React.ReactElement {
 
