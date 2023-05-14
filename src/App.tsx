@@ -11,7 +11,7 @@ export default function App(): React.ReactElement {
                 <Route path="/" exact component={HomePage} />
                 <Route path="/about" component={AboutPage} />
                 <Route path="/signup" component={SignUpPage} />
-                <Route path="/FAQPage" component={FAQPage} />
+                <Route path="/faq" component={FAQPage} />
             </Switch>
         </Router>
     );

@@ -48,10 +48,6 @@
     font-size: max(1vw, 20px);
 }
 
-.text-block ol li {
-    font-size: max(1vw, 20px);
-}
-
 .clock-text {
     display: flex;
     justify-content: center;
@@ -63,4 +59,37 @@
     display: flex;
     justify-content: center;
     font-size: max(2vw, 30px);
+}
+
+.text-block ol li {
+    list-style-type: none;
+    counter-increment: item;
+    font-size: max(1vw, 20px);
+}
+
+.text-block ol {
+    padding: 1.5rem 1.5rem 1.5rem 4em;
+}
+
+.text-block ol > * + * {
+    margin-top: 1rem;
+}
+
+.text-block ::marker {
+    content: counters(list-item, '') ': ';
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #f6be07;
+}
+
+.text-block li span {
+    display: block;
+}
+
+.text-block li span:first-child {
+    font-size: 1.5em;
+}
+
+.text-block li span:last-child {
+    font-style: italic;
 }

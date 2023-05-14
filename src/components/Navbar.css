@@ -43,7 +43,9 @@
     }
 
     .navbar-toggle {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .navbar-button-container.active {
@@ -76,7 +78,7 @@
 
 .navbar-link-text {
     color: black;
-    font-size: 1.3em;
+    font-size: 2em;
 }
 
 .bold {

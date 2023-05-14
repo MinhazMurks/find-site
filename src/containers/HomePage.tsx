@@ -62,14 +62,43 @@ export default function HomePage(): React.ReactElement {
                 </div>
 
                 <div className="text-block">
-                    <div className="heading">How it Works</div>
                     <ol>
-                        <li>Sign Up: Register your team (2-6 people) online. Don’t have a team? No problem! We can help you join a group.</li>
-                        <li>Get Your Clues: On the day of the hunt, you'll receive a list of riddles, puzzles, and clues via our app. Each clue will lead you to a different location within Orlando.</li>
-                        <li>Solve and Search: Use your creativity, teamwork, and adventurous spirit to solve each clue. You'll be hunting for specific landmarks, art, oddities, and hidden treasures throughout the city.</li>
-                        <li>Record Your Findings: Take a photo or video of each found item or completed task and upload it to the app. Be creative, the best photos might win extra points!</li>
-                        <li>Stay Safe: Remember to respect each location and follow all local laws and guidelines. Safety and respect for our city are paramount.</li>
-                        <li>Have Fun!: This is more than just a game, it's a chance to learn, explore, and create unforgettable memories. Enjoy the thrill of the hunt and happy exploring!</li>
+                        <li>
+                            <div>
+                                <span>Sign Up</span>
+                                <span>Register your team (2-6 people) by completing the form from the link below. Don’t have a team? No problem! We can help you join a group.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Get Your Clues</span>
+                                <span>On the day of the hunt, you'll receive a list of riddles, puzzles, and clues via our app. Each clue will lead you to a different location within Orlando.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Solve and Search</span>
+                                <span>Use your creativity, teamwork, and adventurous spirit to solve each clue. You'll be hunting for specific landmarks, art, oddities, and hidden treasures throughout the city.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Record Your Findings</span>
+                                <span>Take a photo or video of each found item or completed task and upload it to the app. Be creative, the best photos might win extra points!</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Stay Safe</span>
+                                <span>Remember to respect each location and follow all local laws and guidelines. Safety and respect for our city are paramount.</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>Have Fun!</span>
+                                <span>This is more than just a game, it's a chance to learn, explore, and create unforgettable memories. Enjoy the thrill of the hunt and happy exploring!</span>
+                            </div>
+                        </li>
                     </ol>
                 </div>
                 <div>
