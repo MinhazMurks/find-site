@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.0c7e3a5b.js",
+    "main.css": "/static/css/main.0f5b4bce.css",
+    "main.js": "/static/js/main.fa8860e8.js",
     "static/js/787.7abe32ab.chunk.js": "/static/js/787.7abe32ab.chunk.js",
+    "static/media/city-shot.png": "/static/media/city-shot.5d9124e6169f37d35e7f.png",
+    "static/media/collab-city.png": "/static/media/collab-city.f830fe0ce1df368c229c.png",
+    "static/media/woods-crouch.png": "/static/media/woods-crouch.851b47442b819366da70.png",
+    "static/media/SeekerOrlando.svg": "/static/media/SeekerOrlando.a8e4669bca26284064451c553fd19776.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.0c7e3a5b.js.map": "/static/js/main.0c7e3a5b.js.map",
+    "main.0f5b4bce.css.map": "/static/css/main.0f5b4bce.css.map",
+    "main.fa8860e8.js.map": "/static/js/main.fa8860e8.js.map",
     "787.7abe32ab.chunk.js.map": "/static/js/787.7abe32ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0c7e3a5b.js"
+    "static/css/main.0f5b4bce.css",
+    "static/js/main.fa8860e8.js"
   ]
 }
