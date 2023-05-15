@@ -1,0 +1,86 @@
+.testimonial-container {
+    width: 100%;
+}
+
+.testimonial-card-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.testimonial-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+
+.testimonial-card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-card-quote {
+    width: 40%;
+    font-size: 1.4em;
+}
+
+/* when the viewport's width is 768px or less */
+@media (max-width: 768px) {
+    .testimonial-card-quote {
+        width: 60%; /* wider for medium screens */
+    }
+}
+
+/* when the viewport's width is 576px or less */
+@media (max-width: 576px) {
+    .testimonial-card-quote {
+        width: 80%; /* even wider for small screens */
+    }
+}
+
+.testimonial-card-author {
+    padding-top: 20px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.testimonial-card-qualifier {
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+.profile-picture {
+    position: relative;
+    width: 20em;
+    height: auto;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+}
+
+.quote-icon {
+    background-color: #f6be07;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30%;
+    width: 30%;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+}
+
+.quote-icon img {
+    height: 60%;
+}

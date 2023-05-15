@@ -2,15 +2,13 @@ import React from 'react';
 import Navbar from "../components/Navbar";
 import {Page} from "../types/PageType";
 import "./HomePage.css"
-import city from "../assets/city-shot.png"
-import collab from "../assets/collab-city.png"
-import woods_crouch from "../assets/woods-crouch.png"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import {Carousel} from "react-responsive-carousel";
 import Countdown from "react-countdown";
+import TestimonialCarousel from "../components/TestimonialCarousel";
+import Footer from "../components/Footer";
 
 export default function HomePage(): React.ReactElement {
-
     return (
         <div className="homepage-container">
             <Navbar page={Page.Home}></Navbar>
@@ -27,13 +25,13 @@ export default function HomePage(): React.ReactElement {
                         showIndicators={false}
                     >
                         <div>
-                            <img src={city} alt="test"/>
+                            <img src="/images/city-shot.png" alt="test"/>
                         </div>
                         <div>
-                            <img src={collab} alt="test"/>
+                            <img src="/images/collab-city.png" alt="test"/>
                         </div>
                         <div>
-                            <img src={woods_crouch} alt="test"/>
+                            <img src="/images/woods-crouch.png" alt="test"/>
                         </div>
                     </Carousel>
                 </div>
@@ -101,11 +99,15 @@ export default function HomePage(): React.ReactElement {
                         </li>
                     </ol>
                 </div>
-                <div>
-                    <p>Testimonials</p>
+                <TestimonialCarousel></TestimonialCarousel>
+                <div className="call-to-action-container">
+                    <span>Don't Miss Out on the Fun! Start Your Hunt Today!</span>
+                    <div className="call-to-action-button">
+                        Sign Up for the next one!
+                    </div>
                 </div>
-                <div>
-                    <p>CTA</p>
+                <div className="footer-container">
+                    <Footer></Footer>
                 </div>
             </div>
         </div>
