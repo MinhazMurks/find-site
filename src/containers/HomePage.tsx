@@ -23,6 +23,7 @@ export default function HomePage(): React.ReactElement {
                         dynamicHeight={true}
                         infiniteLoop={true}
                         showIndicators={false}
+                        swipeable={false}
                     >
                         <div>
                             <img src="/images/city-shot.png" alt="test"/>

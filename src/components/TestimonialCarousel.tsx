@@ -15,6 +15,7 @@ export default function TestimonialCarousel() {
                 interval={3000}
                 showIndicators={false}
                 infiniteLoop={true}
+                swipeable={false}
             >
                 <div className="testimonial-card-container">
                     <div className="testimonial-card">
