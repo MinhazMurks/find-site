@@ -22,7 +22,7 @@ export default function FAQPage(): React.ReactElement {
                         <div className="faq-item-container">
                             <span className="marker">A:</span>
                             <span className="answer-text">
-                                Seeker Orlando is a trusted guide to the heart and soul of Orlando, Florida. We provide insider tips, curated guides, and expert advice to help you explore Orlando beyond the traditional tourist attractions.
+                                Seeker Orlando is a trusted guide to the heart and soul of Orlando, Florida. We provide insider tips, and expert advice to help you explore Orlando beyond the traditional tourist attractions.
                             </span>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ export default function FAQPage(): React.ReactElement {
                         <div className="faq-item-container">
                             <span className="marker">A:</span>
                             <span className="answer-text">
-                                Welcome to Orlando! We recommend starting with our curated guides, which will give you an overview of what to see and do. If you need personalized recommendations, feel free to reach out to us.
+                                Welcome to Orlando! We recommend starting with our scavenger hunt, which will give you an overview of what to see and do. If you need personalized recommendations, feel free to reach out to us.
                             </span>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export default function FAQPage(): React.ReactElement {
                         <div className="faq-item-container">
                             <span className="marker">A:</span>
                             <span className="answer-text">
-                                We'd love to help you plan your perfect Orlando experience. Please visit our Contact page to get in touch with us.
+                                We'd love to help you plan your perfect Orlando experience. Email us at support@seekerorlando.org or text 407-494-6802 to get in touch with us.
                             </span>
                         </div>
                     </div>
