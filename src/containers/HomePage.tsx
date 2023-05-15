@@ -71,7 +71,7 @@ export default function HomePage(): React.ReactElement {
                         <li>
                             <div>
                                 <span>Get Your Clues</span>
-                                <span>On the day of the hunt, you'll receive a list of riddles, puzzles, and clues via our app. Each clue will lead you to a different location within Orlando.</span>
+                                <span>On the day of the hunt, you'll receive the location of the first clue. Each clue will lead you to a different location within Orlando.</span>
                             </div>
                         </li>
                         <li>

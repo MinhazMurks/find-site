@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca20d721-cc9a-4273-a12c-cc3738ce27e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TestimonialCarousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TestimonialCarousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/city-shot.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/city-shot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/collab-city.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/collab-city.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/woods-crouch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/woods-crouch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AboutPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/AboutPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FAQPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FAQPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/FAQPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/FAQPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684010218190</updated>
       <workItem from="1684010219767" duration="32763000" />
-      <workItem from="1684082906315" duration="25401000" />
+      <workItem from="1684082906315" duration="31186000" />
     </task>
     <servers />
   </component>
