@@ -9,7 +9,7 @@
 }
 
 .faq-container {
-
+    height: 100%;
 }
 
 .faq-list {
@@ -37,12 +37,12 @@
 }
 
 .question-text {
-    font-size: 2.3rem;
+    font-size: min(2.3rem, 3.5vw);
 }
 
 .answer-text {
     margin-top: 10px;
-    font-size: max(1vw, 20px);
+    font-size: min(1.5rem, 2.5vw);
     font-style: italic;
 }
 
