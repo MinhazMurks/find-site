@@ -103,9 +103,12 @@ export default function HomePage(): React.ReactElement {
                 <TestimonialCarousel></TestimonialCarousel>
                 <div className="call-to-action-container">
                     <span>Don't Miss Out on the Fun! Start Your Hunt Today!</span>
-                    <div className="call-to-action-button">
-                        Sign Up for the next one!
-                    </div>
+
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezJcXzBItF15XMW2lDHQZVb6j7pz0z96AzVtGTZO_hlFuRtQ/viewform?usp=sf_link">
+                        <div className="call-to-action-button">
+                            <span>Sign Up for the next one!</span>
+                        </div>
+                    </a>
                 </div>
                 <div className="footer-container">
                     <Footer></Footer>

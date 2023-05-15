@@ -47,11 +47,6 @@ export default function Navbar({ page }: NavbarProps) {
                         {renderPageName(Page.About, page)}
                     </div>
                 </Link>
-                <Link to={"/signup"} className="navbar-link">
-                    <div className="navbar-link-text">
-                        {renderPageName(Page.SignUp, page)}
-                    </div>
-                </Link>
                 <Link to={"/faq"} className="navbar-link">
                     <div className="navbar-link-text">
                         {renderPageName(Page.FAQ, page)}
@@ -72,11 +67,6 @@ export default function Navbar({ page }: NavbarProps) {
                         <Link to={"/about"} className="navbar-link" onClick={toggleMenu}>
                             <div className="navbar-link-text">
                                 {renderPageName(Page.About, page)}
-                            </div>
-                        </Link>
-                        <Link to={"/signup"} className="navbar-link" onClick={toggleMenu}>
-                            <div className="navbar-link-text">
-                                {renderPageName(Page.SignUp, page)}
                             </div>
                         </Link>
                         <Link to={"/faq"} className="navbar-link" onClick={toggleMenu}>
