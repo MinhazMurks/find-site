@@ -5,7 +5,8 @@ export default function Footer(): React.ReactElement {
     return (
         <div className="footer">
             <div className="footer-info">
-                © 2023 Seeker Orlando, Inc. All rights reserved
+                <div>© 2023 Seeker Orlando, Inc. All rights reserved</div>
+                <div>For any inquiries, contact support@seekerorlando.org or text 407-494-6802</div>
             </div>
         </div>
     )
