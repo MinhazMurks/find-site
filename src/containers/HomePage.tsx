@@ -77,7 +77,7 @@ export default function HomePage(): React.ReactElement {
                         <li>
                             <div>
                                 <span>Solve and Search</span>
-                                <span>Use your creativity, teamwork, and adventurous spirit to solve each clue. You'll be hunting for specific landmarks, art, oddities, and hidden treasures throughout the city.</span>
+                                <span>Use your creativity, teamwork, and adventurous spirit to solve each clue. You'll be hunting for clues at specific landmarks, oddities, restaurants and businesses throughout the city.</span>
                             </div>
                         </li>
                         <li>
