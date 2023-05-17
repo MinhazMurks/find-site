@@ -71,7 +71,7 @@ export default function HomePage(): React.ReactElement {
                         <li>
                             <div>
                                 <span>Get Your Clues</span>
-                                <span>On the day of the hunt, you'll receive the location of the first clue. Each clue will lead you to a different location within Orlando.</span>
+                                <span>On the day of the hunt, you'll receive the location of the first clue. Each clue will lead you to a different location within Orlando. When you start the first clue, send as text and your time will begin!</span>
                             </div>
                         </li>
                         <li>
@@ -83,7 +83,7 @@ export default function HomePage(): React.ReactElement {
                         <li>
                             <div>
                                 <span>Record Your Findings</span>
-                                <span>Take a photo or video of each found item or completed task and upload it to the app. Be creative, the best photos might win extra points!</span>
+                                <span>Take a photo or video of each found item or completed task and upload it and send an text! Once you reach the end, your time will be recorded! Winners will be announced approximately 1 week after all teams have finished.</span>
                             </div>
                         </li>
                         <li>
