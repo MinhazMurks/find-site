@@ -121,7 +121,7 @@ export default function HomePage(): React.ReactElement {
                         <li>
                             <div>
                                 <span>Record Your Findings</span>
-                                <span>Take a photo or video of each found item or completed task and upload it and send an text! Once you reach the end, your time will be recorded! Winners will be announced approximately 1 week after all teams have finished.</span>
+                                <span>Take a photo or video of each found item or completed task a text! Once you reach the end, your time will be recorded! Winners will be announced approximately 1 week after all teams have finished.</span>
                             </div>
                         </li>
                         <li>
