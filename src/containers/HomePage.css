@@ -117,6 +117,12 @@
     background-color: red;
     padding: 25px;
     font-size: min(2rem, 3vw);
+    transition: all .2s ease-in-out;
+}
+
+.call-to-action-button:hover {
+    cursor: pointer;
+    scale: 1.1;
 }
 
 a:hover, a:visited, a:link, a:active
@@ -126,15 +132,11 @@ a:hover, a:visited, a:link, a:active
 }
 
 .call-to-action-deactivated {
+    cursor: not-allowed;
     margin-top: 10px;
     background-color: gray;
     padding: 25px;
     font-size: min(2rem, 3vw);
-}
-
-.call-to-action-button:hover {
-    cursor: pointer;
-    scale: 1.1;
 }
 
 .footer-container {
