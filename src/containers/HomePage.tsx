@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Navbar from "../components/Navbar";
 import {Page} from "../types/PageType";
 import "./HomePage.css"
@@ -8,7 +8,33 @@ import Countdown from "react-countdown";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import Footer from "../components/Footer";
 
+
 export default function HomePage(): React.ReactElement {
+    const [timeLeft, setTimeLeft] = useState(true);
+
+    const setClockComplete = () => {
+        setTimeLeft(false);
+    };
+
+    const renderSignupButton = () => {
+        if ( timeLeft ) {
+            return (
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSezJcXzBItF15XMW2lDHQZVb6j7pz0z96AzVtGTZO_hlFuRtQ/viewform?usp=sf_link">
+                    <div className="call-to-action-button">
+                        <span>Sign Up for the next one!</span>
+                    </div>
+                </a>
+            )
+        }
+        return (
+            <div>
+                <div className="call-to-action-deactivated">
+                    <span>Signups are closed!</span>
+                </div>
+            </div>
+        )
+    };
+
     return (
         <div className="homepage-container">
             <Navbar page={Page.Home}></Navbar>
@@ -52,11 +78,23 @@ export default function HomePage(): React.ReactElement {
                 </div>
 
                 <div className="clock-container">
-                    <div className="countdown-container">
-                        <Countdown date={new Date(1692823866000)} />
-                    </div>
                     <div className="clock-text">
-                        until the next one
+                        Time until the next round:
+                    </div>
+                    <div className="countdown-container">
+                        <Countdown
+                            date={new Date(1689912000000)}
+                            onComplete={setClockComplete}
+                        >
+                            <div className="finished-clock">
+                                <div className="flashing-text">
+                                    <span>00:00:00:00</span>
+                                </div>
+                                <div className="clock-text">
+                                    Scavenger hunts have begun!
+                                </div>
+                            </div>
+                        </Countdown>
                     </div>
                 </div>
 
@@ -104,11 +142,7 @@ export default function HomePage(): React.ReactElement {
                 <div className="call-to-action-container">
                     <span>Don't Miss Out on the Fun! Start Your Hunt Today!</span>
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezJcXzBItF15XMW2lDHQZVb6j7pz0z96AzVtGTZO_hlFuRtQ/viewform?usp=sf_link">
-                        <div className="call-to-action-button">
-                            <span>Sign Up for the next one!</span>
-                        </div>
-                    </a>
+                    {renderSignupButton()}
                 </div>
                 <div className="footer-container">
                     <Footer></Footer>
